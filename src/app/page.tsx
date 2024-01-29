@@ -106,7 +106,8 @@ export default function Home() {
     <div>
       <div className="flex items-center justify-center mt-[20px] gap-[20px]">
         <h1 className="text-4xl text-center text-gray-100 font-bold">
-          Cinema <strong className="text-green-500">TADS 6</strong>
+          Cinema{" "}
+          <strong className="text-green-500">TADS 6 {process.env.TESTE}</strong>
         </h1>
 
         <div className="flex items-center">
