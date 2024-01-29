@@ -19,5 +19,5 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
       - run: |
-          docker build -t ghcr.io/ThiagoCastagnazzi/cinema_tads:latest -f Dockerfile .
-          docker push ghcr.io/ThiagoCastagnazzi/cinema_tads:latest
+          docker build -t ghcr.io/thiagocastagnazzi/cinema_tads:latest -f Dockerfile .
+          docker push ghcr.io/thiagocastagnazzi/cinema_tads:latest
